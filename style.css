@@ -2,6 +2,9 @@ body {
     background: rgb(212, 211, 211);
   }
   
+  h1{
+    text-align: center;
+  }
   .grid {
     width: 200px;
     height: 200px;
@@ -14,8 +17,8 @@ body {
   .grid div {
     width: 20px;
     height: 20px;
-    border:1px black solid;
-  box-sizing:border-box
+    /* border:1px black solid;
+  box-sizing:border-box */
   }
   
   .snake {
@@ -37,4 +40,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .button {
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
   }
